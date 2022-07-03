@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  overflow-y: hidden;
+}
+
+main {
+  background-color: rgb(33, 23, 39);
+  width: 80%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box1 {
+  width: 3rem;
+  height: 3rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  background-color: rgb(58, 50, 71);
+  margin-left: 22rem;
+  margin-top: -31rem;
+  border-right: 1px solid gainsboro;
+}
+.box1:hover {
+  cursor: pointer;
+  background-color: rgb(24, 9, 24);
+}
+.box2 {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgb(58, 50, 71);
+  border-right: 1px solid gainsboro;
+  margin-left: 27.1rem;
+  margin-top: -4rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+.box2:hover {
+  cursor: pointer;
+  background-color: rgb(24, 9, 24);
+}
+.box3 {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgb(58, 50, 71);
+  margin-left: 36rem;
+  margin-top: -4rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  border-right: 1px solid gainsboro;
+}
+.box3:hover {
+  cursor: pointer;
+  background-color: rgb(24, 9, 24);
+}
+.box4 {
+  width: 3rem;
+  height: 3rem;
+  background-color: rgb(58, 50, 71);
+  margin-left: 41.1rem;
+  margin-top: -4rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+}
+.box4:hover {
+  cursor: pointer;
+  background-color: rgb(24, 9, 24);
+}
+.cafe {
+  width: 3.5rem;
+  height: 3.5rem;
+  background-color: black;
+  margin-left: 31.4rem;
+  margin-top: -4.5rem;
+  padding-top: 1.4rem;
+  padding-left: 2rem;
+}
+.foodlocation h1 {
+  color: white;
+  margin-left: 26rem;
+  margin-top: -4rem;
+}
+.foodlocation p {
+  color: white;
+  margin-left: 26rem;
+  margin-top: 5px;
+}
+.foodlocation img {
+  /* display: block; */
+  margin-top: 1px;
+  margin-left: 24.9rem;
+}
+.foodpics {
+  height: 8rem;
+  margin-left: 25rem;
+  margin-top: 12rem;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.mainlist {
+  width: 17.5rem;
+  height: 17rem;
+  background-color: white;
+  margin-left: 25rem;
+  margin-top: -1rem;
+}
+.mainlist1 {
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-bottom: 1px solid silver;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+.sr-only {
+  border: none;
+}
+.mainlist {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.main1 {
+  margin-bottom: 1rem;
+}
+.main2:hover {
+  cursor: pointer;
+  color: black;
+  transform: translateX(6px);
+}
